@@ -90,7 +90,7 @@ brand,
   margin-bottom: 1rem;
 }
 
-/* card start */
+
 .all-cards-home {
   display: flex;
   width: 100%;
@@ -99,6 +99,7 @@ brand,
   gap: 1rem;
 }
 
+/* card start */
 .video-card {
   height: 13rem;
   width: 17rem;

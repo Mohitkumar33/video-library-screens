@@ -1,0 +1,90 @@
+:root {
+    --primary-red: red;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(235, 230, 230, 0.76);
+}
+
+/* nav bar started */
+
+nav {
+    height: 3.5rem;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+brand,
+.nav-login,
+.main-content {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.nav-login {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px;
+    font-size: medium;
+    background-color: var(--primary-red);
+    color: white;
+}
+
+.brand-last-name {
+    color: var(--primary-red);
+}
+
+.watch-later-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+/* card start */
+.video-card {
+    height: 13rem;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-image {
+    height: 7rem;
+    width: 100%;
+    background-color: aqua;
+}
+
+.card-title,
+.card-views {
+    margin: 5px;
+}
+
+.card-views {
+    display: flex;
+}
+
+.card-watch-button {
+    width: 100%;
+    padding: 8px 0px;
+    text-align: center;
+    border: transparent;
+    background-color: rgb(146, 144, 144);
+    color: white;
+}
+
+.heart-icon {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+}
