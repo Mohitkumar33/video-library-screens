@@ -74,7 +74,7 @@ brand,
 }
 
 .latest-video-info button {
-  background-color: orangered;
+  background-color: var(--primary-red);
   color: white;
   border: transparent;
   margin-top: 10px;
