@@ -89,3 +89,9 @@ brand,
     color: rgb(88, 88, 88);
 
 }
+
+.all-playlist {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

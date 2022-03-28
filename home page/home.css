@@ -26,7 +26,7 @@ nav {
 brand,
 .nav-login,
 .main-content {
-  margin-left: 3rem;
+  margin-left: 1rem;
   margin-right: 3rem;
 }
 
@@ -41,6 +41,18 @@ brand,
 
 .brand-last-name {
   color: var(--primary-red);
+}
+
+/* aside started */
+
+.home-page {
+  display: flex;
+}
+
+aside {
+  width: 20rem;
+  background-color: red;
+  margin-top: 1rem;
 }
 
 /* header started */
@@ -59,7 +71,7 @@ brand,
   right: 0;
   top: 0;
   height: 14rem;
-  width: 40rem;
+  width: 35rem;
 }
 
 .latest-video-info {
@@ -95,7 +107,7 @@ brand,
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 1rem;
 }
 
